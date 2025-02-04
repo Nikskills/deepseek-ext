@@ -18,4 +18,5 @@ A VS Code extension that integrates DeepSeek's AI model directly into your IDE t
 
 1. Install Ollama
 2. Run the following command: ollama pull deepseek-r1:7b
-
+3. Open the command panel in VSCode
+4. Run: Start DeepSeek Chat

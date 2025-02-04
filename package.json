@@ -1,25 +1,38 @@
 {
   "name": "deepseek-ext",
-  "displayName": "deepseek-ext",
-  "description": "",
+  "displayName": "DeepSeek Chat",
+  "description": "Chat with DeepSeek AI directly in VS Code using Ollama",
   "version": "0.0.1",
+  "publisher": "nikkibieleveldt",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nikskills/deepseek-ext.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nikskills/deepseek-ext/issues"
+  },
+  "homepage": "https://github.com/Nikskills/deepseek-ext#readme",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
+    "Machine Learning",
     "Other"
   ],
-  "activationEvents": [],
+  "keywords": [
+    "ai",
+    "chat",
+    "deepseek",
+    "ollama"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "deepseek-ext.helloWorld",
-        "title": "Hello World"
-      },
-      {
         "command": "deepseek-ext.start",
-        "title": "Start Deepseek"
+        "title": "Start DeepSeek Chat"
       }
     ]
   },
